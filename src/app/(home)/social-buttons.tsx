@@ -43,7 +43,7 @@ export default function SocialButtons() {
 				<div className='absolute top-0 left-0 flex items-center justify-end gap-3 max-sm:static' style={{ width: styles.width }}>
 					{tertiaryShow && (
 						<motion.a
-							href='https://github.com/yysuni'
+							href='https://github.com/miliu2cc'
 							target='_blank'
 							initial={{ opacity: 0, scale: 0.6 }}
 							animate={{ opacity: 1, scale: 1 }}
@@ -56,23 +56,11 @@ export default function SocialButtons() {
 						</motion.a>
 					)}
 
-					{secondaryShow && (
-						<motion.a
-							href='https://juejin.cn/user/2427311675422382'
-							target='_blank'
-							initial={{ opacity: 0, scale: 0.6 }}
-							animate={{ opacity: 1, scale: 1 }}
-							whileHover={{ scale: 1.05 }}
-							whileTap={{ scale: 0.95 }}
-							className='card relative flex items-center gap-2 rounded-xl px-3 py-2.5 font-medium whitespace-nowrap'>
-							<JuejinSVG className='h-6 w-6' />
-							稀土掘金
-						</motion.a>
-					)}
+					
 
 					<motion.button
 						onClick={() => {
-							navigator.clipboard.writeText('yysuni1001@gmail.com').then(() => {
+							navigator.clipboard.writeText('miliu2cc@gmail.com').then(() => {
 								toast.success('邮箱已复制到剪贴板')
 							})
 						}}
