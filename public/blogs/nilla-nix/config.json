@@ -1,0 +1,9 @@
+{
+  "title": "一种不使用flake和home-manager的nixos配置方案",
+  "tags": [
+    "nix"
+  ],
+  "date": "2025-12-05",
+  "summary": "nilla+hjem的优美组合",
+  "cover": "/blogs/nilla-nix/208f1d2b45f2121f.svg"
+}
